@@ -97,11 +97,6 @@ docker run -p 8000:8000 fraud-detection
 | POST   | `/predict/`     | Predict fraud transaction  |
 | GET    | `/health/`      | Check API health           |
 
-## 🎯 Future Enhancements
-- Implement **model retraining pipeline**
-- Deploy using **Kubernetes**
-- Integrate **real-time data streaming**
-
 ## 📜 License
 This project is open-source under the **MIT License**.
 
