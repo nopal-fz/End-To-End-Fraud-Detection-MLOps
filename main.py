@@ -5,11 +5,11 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # load model
-with open('C:\\Users\\NAUFAL FAIZ\\Documents\\Fraud ETL\\model\\model.pkl', 'rb') as f:
+with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
     
 # load tfidf vectorizer
-with open('C:\\Users\\NAUFAL FAIZ\\Documents\\Fraud ETL\\model\\tfidf_vectorizer.pkl', 'rb') as f:
+with open('tfidf_vectorizer.pkl', 'rb') as f:
     tfidf = pickle.load(f)
 
 # inisialisasi fastapi

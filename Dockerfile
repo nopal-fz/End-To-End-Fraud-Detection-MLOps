@@ -13,9 +13,6 @@ WORKDIR /app
 # salin requirements.txt ke dalam container
 COPY requirements.txt .
 
-# salin model ke dalam container
-COPY ./model /app/model
-
 # install dependensi yang ada di requirements.txt
 RUN pip install -r requirements.txt
 
